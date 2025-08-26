@@ -1,5 +1,13 @@
 # Welcome to your Expo app 👋
 
+# Observations from reset-project
+When running `npm run reset-project`, I was prompted to choose whether to move existing files into `/app-example`.  
+I selected **No (n)**, which caused the following:
+- The `/app`, `/components`, `/hooks`, `/constants`, and `/scripts` directories were deleted.
+- A fresh `/app` folder was generated with new starter files (`app/index.tsx` and `app/_layout.tsx`).
+- This effectively reset the project to a clean state, ready for fresh edits.
+
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
