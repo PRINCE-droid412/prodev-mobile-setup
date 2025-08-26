@@ -32,6 +32,30 @@ When you're ready, run:
 ```bash
 npm run reset-project
 ```
+# Observations from reset-project
+### Observations:
+When running `npm run reset-project`, I was prompted to choose whether to move existing files into `/app-example`.  
+I selected **Yes (Y)**, which caused the following:
+- The existing `/app`, `/components`, `/hooks`, `/constants`, and `/scripts` directories were moved into a new `/app-example` directory instead of being deleted.
+- A fresh `/app` folder was created with new starter files (`app/index.tsx` and `app/_layout.tsx`).
+- This preserved my old project files in `/app-example` while giving me a clean `/app` directory to continue development.
+
+
+# First Expo Mobile Application
+
+## Objective
+The goal of this project was to set up the first mobile application using the **Expo Router template**.  
+This included scaffolding a new project, modifying the default home screen, and documenting the project reset process.  
+
+---
+
+## Steps Followed
+
+### 1. Navigate to Project Directory
+```bash
+cd prodev-mobile-setup
+
+
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
